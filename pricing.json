@@ -1,0 +1,116 @@
+{
+  "service": "Adzuki AI",
+  "url": "https://adzukiai.com",
+  "docs": "https://adzukiai.com/docs",
+  "api_base": "https://adzukiai.com/v1",
+  "wire_format": "OpenAI Chat Completions",
+  "currency": "USD",
+  "unit": "per 1,000,000 tokens",
+  "billing": "prepaid balance, per token, no subscription",
+  "restricted_for_us_federal_use": [
+    "deepseek-v4-pro",
+    "deepseek-v4.1-flash"
+  ],
+  "data_processing_location": "mainland China (model inference), US/EU (account and billing)",
+  "updated": "2026-10-26",
+  "models": [
+    {
+      "id": "doubao-seed-2.0-lite",
+      "name": "Doubao-Seed-2.0-Lite",
+      "vendor": "ByteDance Doubao",
+      "input_per_1m": 0.1714,
+      "cached_input_per_1m": 0.0343,
+      "output_per_1m": 1.0286,
+      "tags": [
+        "budget",
+        "fast"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    },
+    {
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "vendor": "Zhipu AI",
+      "input_per_1m": 0.2286,
+      "cached_input_per_1m": 0.0657,
+      "output_per_1m": 0.8,
+      "tags": [
+        "budget",
+        "fast"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek-V4.1-Flash",
+      "vendor": "DeepSeek",
+      "input_per_1m": 0.5714,
+      "cached_input_per_1m": 0.0114,
+      "output_per_1m": 2.2857,
+      "tags": [
+        "balanced",
+        "cheap cache"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    },
+    {
+      "id": "doubao-seed-2.1-pro",
+      "name": "Doubao-Seed-2.1-Pro",
+      "vendor": "ByteDance Doubao",
+      "input_per_1m": 1.7143,
+      "cached_input_per_1m": 0.3429,
+      "output_per_1m": 8.5714,
+      "tags": [
+        "flagship"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    },
+    {
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "vendor": "Zhipu AI",
+      "input_per_1m": 2.2857,
+      "cached_input_per_1m": 0.5714,
+      "output_per_1m": 8.0,
+      "tags": [
+        "flagship"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek-V4-Pro",
+      "vendor": "DeepSeek",
+      "input_per_1m": 2.5714,
+      "cached_input_per_1m": 0.0857,
+      "output_per_1m": 7.7143,
+      "tags": [
+        "flagship"
+      ],
+      "context_tokens": 1000000,
+      "max_output_tokens": 384000,
+      "rate_limit_rpm": 60,
+      "rate_limit_tpm": 100000,
+      "capabilities": [
+        "text in / text out",
+        "implicit prompt caching",
+        "structured output",
+        "deep-thinking mode"
+      ],
+      "pricing_page": "https://adzukiai.com/deepseek-v4-pro"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi-K3",
+      "vendor": "Moonshot AI",
+      "input_per_1m": 5.7143,
+      "cached_input_per_1m": 0.5714,
+      "output_per_1m": 28.5714,
+      "tags": [
+        "premium",
+        "long context"
+      ],
+      "pricing_page": "https://adzukiai.com/models"
+    }
+  ]
+}

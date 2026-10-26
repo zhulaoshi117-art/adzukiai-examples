@@ -1,0 +1,36 @@
+name: refresh pricing
+
+# Pulls the published price list once a day so this repository does not decay
+# into a set of numbers that were right in 2026. If the file is unchanged the
+# job commits nothing and exits green.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch price list
+        run: curl -fsS --max-time 30 https://adzukiai.com/pricing.json -o pricing.json
+
+      - name: Validate JSON
+        run: python3 -c "import json;d=json.load(open('pricing.json'));print(len(d['models']),'models, updated',d['updated'])"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "pricing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add pricing.json
+          if git diff --cached --quiet; then
+            echo "pricing unchanged"
+          else
+            git commit -m "chore: refresh pricing.json from adzukiai.com"
+            git push
+          fi
