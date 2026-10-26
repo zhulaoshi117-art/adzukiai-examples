@@ -1,0 +1,7 @@
+# 仓库里存 LF，工作区也检出 LF。
+# 原因：Windows 上 core.autocrlf=true 会把 .sh 检成 CRLF，
+# 而在 Linux/macOS 或 CI 里直接跑时会报 "$'\r': command not found"。
+* text=auto eol=lf
+*.sh   text eol=lf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
