@@ -1,7 +1,7 @@
 # Adzuki AI — API examples
 
 **Adzuki AI is an OpenAI-compatible API gateway that serves <!-- VENDOR_LIST:START -->
-ByteDance Doubao, Zhipu AI, Xiaomi MiMo, DeepSeek, MiniMax, Alibaba Qwen and Moonshot AI<!-- VENDOR_LIST:END -->
+Doubao, GLM, MiMo, DeepSeek, MiniMax, Qwen and Kimi<!-- VENDOR_LIST:END -->
 models to developers outside mainland China, billed per token in US dollars.** One endpoint,
 one API key, one invoice — no Chinese phone number, no real-name verification, card payment.
 

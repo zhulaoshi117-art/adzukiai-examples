@@ -30,6 +30,22 @@ def usd(v):
     return s
 
 
+# Vendor full name (as it appears in pricing.json / on the site) -> the model
+# brand name developers actually search for. The opening paragraph uses the
+# brand names (GLM, Kimi, Qwen...) because those are the searchable terms; the
+# table's Vendor column keeps the full name so it stays byte-identical with the
+# live site and pricing.json (entity consistency).
+VENDOR_BRAND = {
+    "DeepSeek": "DeepSeek",
+    "Zhipu AI": "GLM",
+    "Moonshot AI": "Kimi",
+    "ByteDance Doubao": "Doubao",
+    "Alibaba Qwen": "Qwen",
+    "MiniMax": "MiniMax",
+    "Xiaomi MiMo": "MiMo",
+}
+
+
 def load():
     with open("pricing.json", "r", encoding="utf-8") as f:
         return json.load(f)
@@ -62,8 +78,11 @@ def main():
     summary = "%d models from %d vendors." % (n_models, n_vendors)
 
     # --- vendor list for the opening paragraph ---
-    # "DeepSeek, GLM, Kimi, Doubao, Qwen, MiniMax and Xiaomi MiMo"
-    names = list(vendors.keys())
+    # Use the model brand names (GLM, Kimi, Qwen...) — these are what developers
+    # actually search for, so they carry the SEO/GEO weight. Fall back to the
+    # full name for any vendor we haven't mapped, so the script never drops a
+    # vendor if the catalogue grows.
+    names = [VENDOR_BRAND.get(v, v) for v in vendors.keys()]
     if len(names) == 1:
         vendor_phrase = names[0]
     elif len(names) == 2:
