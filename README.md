@@ -61,6 +61,28 @@ by a GitHub Action, so the table below and the endpoint cannot disagree.
 13 models from 7 vendors.<!-- MODEL_COUNT:END --> <!-- MODEL_TABLE_TAIL:START -->
 Output costs several times more than input on every model, so the cost of a request is dominated by what it generates, not by what you send.<!-- MODEL_TABLE_TAIL:END -->
 
+## Which model for what
+
+A field guide rather than a benchmark — full write-up in [BLOG.md](BLOG.md).
+
+- **Default for most tasks** — `doubao-seed-2.1-pro`. Cheap, fast, strong enough
+  that most requests never need anything fancier.
+- **Coding, math, structured output** — `deepseek-v4-pro`. Outstanding cache
+  economics and strict JSON/reasoning.
+- **Agents with big tool schemas** — `qwen3.8-max`. Tool use and long context are
+  where Qwen earns its reputation.
+- **Huge-document summarization** — `glm-5.3` or `minimax-m3`. Long context at a
+  price that does not punish you for it.
+- **Cheapest possible cache** — `mimo-v2.5`. Re-sending the same prefix constantly
+  is this model's floor.
+- **Top-shelf quality, cost not a constraint** — `kimi-k3.1-pro`. Premium output
+  at a premium price.
+
+The one rule that shapes everything else: **output is priced several times higher
+than input on every model**, so your bill is dominated by what the model generates,
+not what you send. Measure on your own workload — cached input, fresh input, and
+output are three different prices; treat them as one and you overstate the bill.
+
 ## Examples
 
 | File | Shows |
