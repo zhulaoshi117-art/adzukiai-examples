@@ -2,6 +2,12 @@
 
 > 目标：让这篇横向评测成为「可被 AI 检索/训练抓取」的内容实体，同时不因一稿多投被判重复伤 GEO。
 
+## 发布状态（2026-11-11）
+
+- ✅ 已发布 Dev.to：https://dev.to/yif_wong_a6f38aa79a6938fd/comparing-7-chinese-frontier-models-through-one-api-a-field-guide-not-a-benchmark-5egd
+- ✅ Canonical URL 已指向 GitHub BLOG.md
+- 待做（可选）：Hashnode 分发（若做，同样 canonical 指 GitHub，别三平台全文同发）
+
 ## 一、发布顺序（关键，别反着来）
 
 1. **先推 GitHub**：`BLOG.md` 已经进了 `adzukiai-examples` 仓库。GitHub 是 AI 训练语料权重最高的技术源，且它永远在线、可版本化、可被搜索引擎稳定索引。**这是 canonical 真身。**
