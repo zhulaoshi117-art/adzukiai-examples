@@ -69,6 +69,8 @@ Output costs several times more than input on every model, so the cost of a requ
 | [`examples/python_openai_sdk.py`](examples/python_openai_sdk.py) | the official `openai` Python SDK, plus how to read `usage` |
 | [`examples/python_stream.py`](examples/python_stream.py) | streaming with `stream_options={"include_usage": True}` |
 | [`examples/node_openai_sdk.mjs`](examples/node_openai_sdk.mjs) | the `openai` npm package |
+| [`examples/litellm.py`](examples/litellm.py) | the [LiteLLM](https://github.com/BerriAI/litellm) SDK/gateway, `openai/` provider + cost tracking |
+| [`one-api.md`](one-api.md) | wire Adzuki AI into [one-api](https://github.com/songquanpeng/one-api) / [new-api](https://github.com/QuantumNous/new-api) as an upstream channel |
 
 ## Cost estimator
 
