@@ -18,9 +18,9 @@
       "id": "doubao-seed-2.0-lite",
       "name": "Doubao-Seed-2.0-Lite",
       "vendor": "ByteDance Doubao",
-      "input_per_1m": 0.1714,
-      "cached_input_per_1m": 0.0343,
-      "output_per_1m": 1.0286,
+      "input_per_1m": 0.0519,
+      "cached_input_per_1m": 0.0104,
+      "output_per_1m": 0.3111,
       "tags": [
         "budget",
         "fast"
@@ -31,9 +31,9 @@
       "id": "glm-5.3-flash",
       "name": "GLM-5.3-Flash",
       "vendor": "Zhipu AI",
-      "input_per_1m": 0.2286,
-      "cached_input_per_1m": 0.0657,
-      "output_per_1m": 0.8,
+      "input_per_1m": 0.0553,
+      "cached_input_per_1m": 0.0159,
+      "output_per_1m": 0.1936,
       "tags": [
         "budget",
         "fast"
@@ -44,9 +44,9 @@
       "id": "doubao-seed-2.1-lite",
       "name": "Doubao-Seed-2.1-Lite",
       "vendor": "ByteDance Doubao",
-      "input_per_1m": 0.2286,
-      "cached_input_per_1m": 0.0457,
-      "output_per_1m": 0.7714,
+      "input_per_1m": 0.0691,
+      "cached_input_per_1m": 0.0138,
+      "output_per_1m": 0.2334,
       "tags": [
         "budget",
         "fast"
@@ -57,9 +57,9 @@
       "id": "mimo-v2.5",
       "name": "MiMo-V2.5",
       "vendor": "Xiaomi MiMo",
-      "input_per_1m": 0.2857,
-      "cached_input_per_1m": 0.0057,
-      "output_per_1m": 0.5714,
+      "input_per_1m": 0.0927,
+      "cached_input_per_1m": 0.0019,
+      "output_per_1m": 0.1854,
       "tags": [
         "budget",
         "cheap cache"
@@ -70,22 +70,35 @@
       "id": "deepseek-v4.1-flash",
       "name": "DeepSeek-V4.1-Flash",
       "vendor": "DeepSeek",
-      "input_per_1m": 0.5714,
-      "cached_input_per_1m": 0.0114,
-      "output_per_1m": 2.2857,
+      "input_per_1m": 0.0691,
+      "cached_input_per_1m": 0.0014,
+      "output_per_1m": 0.2766,
       "tags": [
         "balanced",
         "cheap cache"
       ],
+      "time_of_day_pricing": {
+        "off_peak": {
+          "input_per_1m": 0.069143,
+          "output_per_1m": 0.276571,
+          "cached_input_per_1m": 0.001383
+        },
+        "peak": {
+          "input_per_1m": 0.138286,
+          "output_per_1m": 0.553143,
+          "cached_input_per_1m": 0.002766
+        },
+        "peak_hours": "09:00-12:00 and 14:00-18:00 China Standard Time"
+      },
       "pricing_page": "https://adzukiai.com/models"
     },
     {
       "id": "mimo-v2.5-pro",
       "name": "MiMo-V2.5-Pro",
       "vendor": "Xiaomi MiMo",
-      "input_per_1m": 0.8571,
-      "cached_input_per_1m": 0.0071,
-      "output_per_1m": 1.7143,
+      "input_per_1m": 0.2781,
+      "cached_input_per_1m": 0.0023,
+      "output_per_1m": 0.5563,
       "tags": [
         "balanced",
         "cheap cache"
@@ -96,9 +109,9 @@
       "id": "minimax-m3",
       "name": "MiniMax-M3",
       "vendor": "MiniMax",
-      "input_per_1m": 1.2,
-      "cached_input_per_1m": 0.24,
-      "output_per_1m": 4.8,
+      "input_per_1m": 0.3564,
+      "cached_input_per_1m": 0.0713,
+      "output_per_1m": 1.4256,
       "tags": [
         "flagship",
         "long context"
@@ -109,9 +122,9 @@
       "id": "doubao-seed-2.1-pro",
       "name": "Doubao-Seed-2.1-Pro",
       "vendor": "ByteDance Doubao",
-      "input_per_1m": 1.7143,
-      "cached_input_per_1m": 0.3429,
-      "output_per_1m": 8.5714,
+      "input_per_1m": 0.5186,
+      "cached_input_per_1m": 0.1037,
+      "output_per_1m": 2.5929,
       "tags": [
         "flagship"
       ],
@@ -121,9 +134,9 @@
       "id": "glm-5.3",
       "name": "GLM-5.3",
       "vendor": "Zhipu AI",
-      "input_per_1m": 2.2857,
-      "cached_input_per_1m": 0.5714,
-      "output_per_1m": 8.0,
+      "input_per_1m": 0.5531,
+      "cached_input_per_1m": 0.1383,
+      "output_per_1m": 1.936,
       "tags": [
         "flagship"
       ],
@@ -133,12 +146,25 @@
       "id": "deepseek-v4-pro",
       "name": "DeepSeek-V4-Pro",
       "vendor": "DeepSeek",
-      "input_per_1m": 2.5714,
-      "cached_input_per_1m": 0.0857,
-      "output_per_1m": 7.7143,
+      "input_per_1m": 0.4526,
+      "cached_input_per_1m": 0.0151,
+      "output_per_1m": 1.3577,
       "tags": [
         "flagship"
       ],
+      "time_of_day_pricing": {
+        "off_peak": {
+          "input_per_1m": 0.452571,
+          "output_per_1m": 1.357714,
+          "cached_input_per_1m": 0.015086
+        },
+        "peak": {
+          "input_per_1m": 0.905143,
+          "output_per_1m": 2.715429,
+          "cached_input_per_1m": 0.030171
+        },
+        "peak_hours": "09:00-12:00 and 14:00-18:00 China Standard Time"
+      },
       "context_tokens": 1000000,
       "max_output_tokens": 384000,
       "rate_limit_rpm": 60,
@@ -155,9 +181,9 @@
       "id": "qwen3.8-max",
       "name": "Qwen-3.8-Max",
       "vendor": "Alibaba Qwen",
-      "input_per_1m": 3.4286,
-      "cached_input_per_1m": 0.4286,
-      "output_per_1m": 10.2857,
+      "input_per_1m": 1.5086,
+      "cached_input_per_1m": 0.1886,
+      "output_per_1m": 4.5257,
       "tags": [
         "flagship",
         "long context"
@@ -168,9 +194,9 @@
       "id": "kimi-k3.1-pro",
       "name": "Kimi-K3.1-Pro",
       "vendor": "Moonshot AI",
-      "input_per_1m": 3.7143,
-      "cached_input_per_1m": 0.3714,
-      "output_per_1m": 19.4286,
+      "input_per_1m": 1.8571,
+      "cached_input_per_1m": 0.1857,
+      "output_per_1m": 9.7143,
       "tags": [
         "premium",
         "long context"
@@ -181,9 +207,9 @@
       "id": "kimi-k3",
       "name": "Kimi-K3",
       "vendor": "Moonshot AI",
-      "input_per_1m": 5.7143,
-      "cached_input_per_1m": 0.5714,
-      "output_per_1m": 28.5714,
+      "input_per_1m": 2.2,
+      "cached_input_per_1m": 0.22,
+      "output_per_1m": 11.0,
       "tags": [
         "premium",
         "long context"

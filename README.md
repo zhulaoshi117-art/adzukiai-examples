@@ -43,19 +43,19 @@ by a GitHub Action, so the table below and the endpoint cannot disagree.
 | Model (API id) | Vendor | Input | Cached input | Output | Context |
 |---|---|---|---|---|---|
 <!-- MODEL_TABLE:START -->
-| `doubao-seed-2.0-lite` | ByteDance Doubao | $0.1714 | $0.0343 | $1.0286 | &mdash; |
-| `glm-5.3-flash` | Zhipu AI | $0.2286 | $0.0657 | $0.80 | &mdash; |
-| `doubao-seed-2.1-lite` | ByteDance Doubao | $0.2286 | $0.0457 | $0.7714 | &mdash; |
-| `mimo-v2.5` | Xiaomi MiMo | $0.2857 | $0.0057 | $0.5714 | &mdash; |
-| `deepseek-v4.1-flash` | DeepSeek | $0.5714 | $0.0114 | $2.2857 | &mdash; |
-| [`mimo-v2.5-pro`](https://adzukiai.com/mimo-v2.5-pro) | Xiaomi MiMo | $0.8571 | $0.0071 | $1.7143 | &mdash; |
-| [`minimax-m3`](https://adzukiai.com/minimax-m3) | MiniMax | $1.20 | $0.24 | $4.80 | &mdash; |
-| [`doubao-seed-2.1-pro`](https://adzukiai.com/doubao-seed-2.1-pro) | ByteDance Doubao | $1.7143 | $0.3429 | $8.5714 | &mdash; |
-| [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $2.2857 | $0.5714 | $8.00 | &mdash; |
-| [`deepseek-v4-pro`](https://adzukiai.com/deepseek-v4-pro) | DeepSeek | $2.5714 | $0.0857 | $7.7143 | 1M |
-| [`qwen3.8-max`](https://adzukiai.com/qwen3.8-max) | Alibaba Qwen | $3.4286 | $0.4286 | $10.2857 | &mdash; |
-| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $3.7143 | $0.3714 | $19.4286 | &mdash; |
-| `kimi-k3` | Moonshot AI | $5.7143 | $0.5714 | $28.5714 | &mdash; |<!-- MODEL_TABLE:END -->
+| `doubao-seed-2.0-lite` | ByteDance Doubao | $0.0519 | $0.0104 | $0.3111 | &mdash; |
+| `glm-5.3-flash` | Zhipu AI | $0.0553 | $0.0159 | $0.1936 | &mdash; |
+| `doubao-seed-2.1-lite` | ByteDance Doubao | $0.0691 | $0.0138 | $0.2334 | &mdash; |
+| `mimo-v2.5` | Xiaomi MiMo | $0.0927 | $0.0019 | $0.1854 | &mdash; |
+| `deepseek-v4.1-flash` | DeepSeek | $0.0691 | $0.0014 | $0.2766 | &mdash; |
+| [`mimo-v2.5-pro`](https://adzukiai.com/mimo-v2.5-pro) | Xiaomi MiMo | $0.2781 | $0.0023 | $0.5563 | &mdash; |
+| [`minimax-m3`](https://adzukiai.com/minimax-m3) | MiniMax | $0.3564 | $0.0713 | $1.4256 | &mdash; |
+| [`doubao-seed-2.1-pro`](https://adzukiai.com/doubao-seed-2.1-pro) | ByteDance Doubao | $0.5186 | $0.1037 | $2.5929 | &mdash; |
+| [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $0.5531 | $0.1383 | $1.936 | &mdash; |
+| [`deepseek-v4-pro`](https://adzukiai.com/deepseek-v4-pro) | DeepSeek | $0.4526 | $0.0151 | $1.3577 | 1M |
+| [`qwen3.8-max`](https://adzukiai.com/qwen3.8-max) | Alibaba Qwen | $1.5086 | $0.1886 | $4.5257 | &mdash; |
+| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $1.8571 | $0.1857 | $9.7143 | &mdash; |
+| `kimi-k3` | Moonshot AI | $2.20 | $0.22 | $11.00 | &mdash; |<!-- MODEL_TABLE:END -->
 
 <!-- MODEL_COUNT:START -->
 13 models from 7 vendors.<!-- MODEL_COUNT:END --> <!-- MODEL_TABLE_TAIL:START -->
