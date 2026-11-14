@@ -54,7 +54,7 @@ by a GitHub Action, so the table below and the endpoint cannot disagree.
 | [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $0.5531 | $0.1383 | $1.936 | &mdash; |
 | [`deepseek-v4-pro`](https://adzukiai.com/deepseek-v4-pro) | DeepSeek | $0.4526 | $0.0151 | $1.3577 | 1M |
 | [`qwen3.8-max`](https://adzukiai.com/qwen3.8-max) | Alibaba Qwen | $1.5086 | $0.1886 | $4.5257 | &mdash; |
-| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $1.8571 | $0.1857 | $9.7143 | &mdash; |
+| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $1.2071 | $0.1207 | $6.3143 | &mdash; |
 | `kimi-k3` | Moonshot AI | $2.20 | $0.22 | $11.00 | &mdash; |<!-- MODEL_TABLE:END -->
 
 <!-- MODEL_COUNT:START -->

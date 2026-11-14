@@ -12,7 +12,7 @@
     "deepseek-v4.1-flash"
   ],
   "data_processing_location": "mainland China (model inference), US/EU (account and billing)",
-  "updated": "2026-11-11",
+  "updated": "2026-11-14",
   "models": [
     {
       "id": "doubao-seed-2.0-lite",
@@ -194,9 +194,9 @@
       "id": "kimi-k3.1-pro",
       "name": "Kimi-K3.1-Pro",
       "vendor": "Moonshot AI",
-      "input_per_1m": 1.8571,
-      "cached_input_per_1m": 0.1857,
-      "output_per_1m": 9.7143,
+      "input_per_1m": 1.2071,
+      "cached_input_per_1m": 0.1207,
+      "output_per_1m": 6.3143,
       "tags": [
         "premium",
         "long context"
