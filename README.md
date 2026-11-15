@@ -1,7 +1,7 @@
 # Adzuki AI — API examples
 
 **Adzuki AI is an OpenAI-compatible API gateway that serves <!-- VENDOR_LIST:START -->
-Doubao, GLM, MiMo, DeepSeek, MiniMax, Qwen and Kimi<!-- VENDOR_LIST:END -->
+Doubao, GLM, DeepSeek, MiniMax, Qwen and Kimi<!-- VENDOR_LIST:END -->
 models to developers outside mainland China, billed per token in US dollars.** One endpoint,
 one API key, one invoice — no Chinese phone number, no real-name verification, card payment.
 
@@ -46,19 +46,17 @@ by a GitHub Action, so the table below and the endpoint cannot disagree.
 | `doubao-seed-2.0-lite` | ByteDance Doubao | $0.0519 | $0.0104 | $0.3111 | &mdash; |
 | `glm-5.3-flash` | Zhipu AI | $0.0553 | $0.0159 | $0.1936 | &mdash; |
 | `doubao-seed-2.1-lite` | ByteDance Doubao | $0.0691 | $0.0138 | $0.2334 | &mdash; |
-| `mimo-v2.5` | Xiaomi MiMo | $0.0927 | $0.0019 | $0.1854 | &mdash; |
 | `deepseek-v4.1-flash` | DeepSeek | $0.0691 | $0.0014 | $0.2766 | &mdash; |
-| [`mimo-v2.5-pro`](https://adzukiai.com/mimo-v2.5-pro) | Xiaomi MiMo | $0.2781 | $0.0023 | $0.5563 | &mdash; |
 | [`minimax-m3`](https://adzukiai.com/minimax-m3) | MiniMax | $0.3564 | $0.0713 | $1.4256 | &mdash; |
 | [`doubao-seed-2.1-pro`](https://adzukiai.com/doubao-seed-2.1-pro) | ByteDance Doubao | $0.5186 | $0.1037 | $2.5929 | &mdash; |
-| [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $0.5531 | $0.1383 | $1.936 | &mdash; |
+| [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $0.5406 | $0.1351 | $1.892 | &mdash; |
 | [`deepseek-v4-pro`](https://adzukiai.com/deepseek-v4-pro) | DeepSeek | $0.4526 | $0.0151 | $1.3577 | 1M |
 | [`qwen3.8-max`](https://adzukiai.com/qwen3.8-max) | Alibaba Qwen | $1.5086 | $0.1886 | $4.5257 | &mdash; |
-| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $1.2071 | $0.1207 | $6.3143 | &mdash; |
+| [`kimi-k3.1-pro`](https://adzukiai.com/kimi-k3.1-pro) | Moonshot AI | $1.3279 | $0.1328 | $6.9457 | &mdash; |
 | `kimi-k3` | Moonshot AI | $2.20 | $0.22 | $11.00 | &mdash; |<!-- MODEL_TABLE:END -->
 
 <!-- MODEL_COUNT:START -->
-13 models from 7 vendors.<!-- MODEL_COUNT:END --> <!-- MODEL_TABLE_TAIL:START -->
+11 models from 6 vendors.<!-- MODEL_COUNT:END --> <!-- MODEL_TABLE_TAIL:START -->
 Output costs several times more than input on every model, so the cost of a request is dominated by what it generates, not by what you send.<!-- MODEL_TABLE_TAIL:END -->
 
 ## Which model for what

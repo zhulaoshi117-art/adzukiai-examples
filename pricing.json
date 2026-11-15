@@ -54,19 +54,6 @@
       "pricing_page": "https://adzukiai.com/models"
     },
     {
-      "id": "mimo-v2.5",
-      "name": "MiMo-V2.5",
-      "vendor": "Xiaomi MiMo",
-      "input_per_1m": 0.0927,
-      "cached_input_per_1m": 0.0019,
-      "output_per_1m": 0.1854,
-      "tags": [
-        "budget",
-        "cheap cache"
-      ],
-      "pricing_page": "https://adzukiai.com/models"
-    },
-    {
       "id": "deepseek-v4.1-flash",
       "name": "DeepSeek-V4.1-Flash",
       "vendor": "DeepSeek",
@@ -91,19 +78,6 @@
         "peak_hours": "09:00-12:00 and 14:00-18:00 China Standard Time"
       },
       "pricing_page": "https://adzukiai.com/models"
-    },
-    {
-      "id": "mimo-v2.5-pro",
-      "name": "MiMo-V2.5-Pro",
-      "vendor": "Xiaomi MiMo",
-      "input_per_1m": 0.2781,
-      "cached_input_per_1m": 0.0023,
-      "output_per_1m": 0.5563,
-      "tags": [
-        "balanced",
-        "cheap cache"
-      ],
-      "pricing_page": "https://adzukiai.com/mimo-v2.5-pro"
     },
     {
       "id": "minimax-m3",
@@ -134,9 +108,9 @@
       "id": "glm-5.3",
       "name": "GLM-5.3",
       "vendor": "Zhipu AI",
-      "input_per_1m": 0.5531,
-      "cached_input_per_1m": 0.1383,
-      "output_per_1m": 1.936,
+      "input_per_1m": 0.5406,
+      "cached_input_per_1m": 0.1351,
+      "output_per_1m": 1.892,
       "tags": [
         "flagship"
       ],
@@ -194,9 +168,9 @@
       "id": "kimi-k3.1-pro",
       "name": "Kimi-K3.1-Pro",
       "vendor": "Moonshot AI",
-      "input_per_1m": 1.2071,
-      "cached_input_per_1m": 0.1207,
-      "output_per_1m": 6.3143,
+      "input_per_1m": 1.3279,
+      "cached_input_per_1m": 0.1328,
+      "output_per_1m": 6.9457,
       "tags": [
         "premium",
         "long context"
