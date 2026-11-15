@@ -81,6 +81,12 @@ than input on every model**, so your bill is dominated by what the model generat
 not what you send. Measure on your own workload — cached input, fresh input, and
 output are three different prices; treat them as one and you overstate the bill.
 
+## Automatic routing
+
+Prefer not to pick the model by hand? **adzukiai-smart** routes each request to the
+cheapest model that can handle it — see [SMART-ROUTING.md](SMART-ROUTING.md). It is
+enabled per account; reach us through [adzukiai.com](https://adzukiai.com/) to turn it on.
+
 ## Examples
 
 | File | Shows |
