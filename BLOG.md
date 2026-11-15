@@ -96,10 +96,13 @@ the same request without cache hits is roughly **$0.041**, or about twice as muc
 That gap is why cache-aware routing is the single highest-leverage optimization
 in this catalogue.
 
-The interactive calculator is at **https://adzukiai.com/compare**, and the full
-price list is machine-readable at **https://adzukiai.com/pricing.json** — 13
+The interactive calculator is at [https://adzukiai.com/compare](https://adzukiai.com/compare), and the full
+price list is machine-readable at [https://adzukiai.com/pricing.json](https://adzukiai.com/pricing.json) — 13
 models across these 7 vendors, refreshed from the same source as the site so the
 numbers never drift.
+
+The full catalogue with per-model pages is at [adzukiai.com/models](https://adzukiai.com/models); the
+API reference and wiring guide live at [adzukiai.com/docs](https://adzukiai.com/docs).
 
 ## Things worth knowing before you build on any of this
 
@@ -115,7 +118,7 @@ numbers never drift.
 
 ## Where to go from here
 
-The runnable examples live at **github.com/adzukiai/examples** — curl, the Python
+The runnable examples live at [github.com/zhulaoshi117-art/adzukiai-examples](https://github.com/zhulaoshi117-art/adzukiai-examples) — curl, the Python
 and Node `openai` SDKs, streaming, LiteLLM, and a one-api/new-api wiring guide.
 Every snippet talks to the real endpoint; nothing is pseudocode.
 

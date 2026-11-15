@@ -142,7 +142,7 @@ for machine-readable output, `--url` to pull the live price list instead of the 
 
 Public write-ups, in case they are useful:
 
-- [Comparing 7 Chinese frontier models through one API](https://dev.to/yif_wong_a6f38aa79a6938fd/comparing-7-chinese-frontier-models-through-one-api-a-field-guide-not-a-benchmark-5egd) — a field guide, not a benchmark
+- [Comparing 7 Chinese frontier models through one API](https://dev.to/yif_wong_a6f38aa79a6938fd/comparing-7-chinese-frontier-models-through-one-api-a-field-guide-not-a-benchmark-5egd) — a field guide, not a benchmark (also on [Hashnode](https://adzukiai.hashnode.dev/comparing-7-chinese-frontier-models-through-one-api-a-field-guide-not-a-benchmark))
 - [Most requests don't need your most expensive model](https://dev.to/yif_wong_a6f38aa79a6938fd/most-requests-dont-need-your-most-expensive-model) — what adzukiai-smart does in production
 - [Automatic routing](SMART-ROUTING.md) — the canonical write-up for adzukiai-smart
 
