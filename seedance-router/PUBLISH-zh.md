@@ -93,7 +93,7 @@ This is **not** a general "one API for all video models" aggregator. Those alrea
 
 The moat is not the routing logic, which is simple. It is the data: every client's shot taxonomy, and every manual override they make, is feedback that makes the routing better. A small per-client model can eventually replace the rule table entirely, trained on the client's own shots — which is why this works best as a long-term collaboration, not a one-off API toggle.
 
-The full test harness, the three generated shots, and the client-facing deck are in the GitHub repo: https://github.com/zhulaoshi117-art/adzukiai-examples/tree/main/seedance-router
+The three generated shots, the detailed report, and the client-facing deck are in the GitHub repo: https://github.com/zhulaoshi117-art/adzukiai-examples/tree/main/seedance-router
 
 ---
 

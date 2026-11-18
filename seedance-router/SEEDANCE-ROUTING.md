@@ -119,5 +119,4 @@ works best as a long-term collaboration, not a one-off API toggle.
 
 - `Seedance漫剧智能路由方案.pptx` — the full client-facing proposal deck (Chinese)
 - `测试案例报告.md` — the detailed test report with the raw numbers (Chinese)
-- `test_case.py` — the end-to-end test harness (stdlib only, set `SEEDANCE_TOKEN`)
 - `videos/` — the three generated shots, one per tier
