@@ -68,4 +68,16 @@ This is **not** a general "one API for all video models" aggregator. Those alrea
 
 The moat is not the routing logic, which is simple. It is the data: every client's shot taxonomy, and every manual override they make, is feedback that makes the routing better. A small per-client model can eventually replace the rule table entirely, trained on the client's own shots — which is why this works best as a long-term collaboration, not a one-off API toggle.
 
+## Try it on your own shots
+
+If you produce comic drama (or any multi-tier AI-video workload) and want shot-level routing wired into your pipeline, the gateway this test ran against is **Adzuki AI** — an OpenAI-compatible gateway for China's frontier models, with the Seedance line already onboarded.
+
+Get set up in a few minutes:
+
+1. **Sign up** at https://adzukiai.com — no commitment, free to register.
+2. Grab an API key from the console and hit the same OpenAI-compatible `/v1/video/generations` endpoint your stack already uses.
+3. Need the routing layer configured, a custom price tier, or help tuning it to your shot taxonomy? **Talk to us via the on-site chat / support** — tell us your episode structure (static / dialogue / action mix) and we'll set up the per-shot mapping with you.
+
+If you'd rather build on the logic yourself, everything is open:
+
 The three generated shots, the detailed report, and the client-facing deck are in the GitHub repo: https://github.com/zhulaoshi117-art/adzukiai-examples/tree/main/seedance-router
