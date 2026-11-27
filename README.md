@@ -46,7 +46,7 @@ by a GitHub Action, so the table below and the endpoint cannot disagree.
 | `doubao-seed-2.0-lite` | ByteDance Doubao | $0.0519 | $0.0104 | $0.3111 | &mdash; |
 | `glm-5.3-flash` | Zhipu AI | $0.0553 | $0.0159 | $0.1936 | &mdash; |
 | `doubao-seed-2.1-lite` | ByteDance Doubao | $0.0691 | $0.0138 | $0.2334 | &mdash; |
-| `deepseek-v4.1-flash` | DeepSeek | $0.0691 | $0.0014 | $0.2766 | &mdash; |
+| [`deepseek-v4.1-flash`](https://adzukiai.com/deepseek-v4.1-flash) | DeepSeek | $0.0691 | $0.0014 | $0.2766 | &mdash; |
 | [`minimax-m3`](https://adzukiai.com/minimax-m3) | MiniMax | $0.3564 | $0.0713 | $1.4256 | &mdash; |
 | [`doubao-seed-2.1-pro`](https://adzukiai.com/doubao-seed-2.1-pro) | ByteDance Doubao | $0.5186 | $0.1037 | $2.5929 | &mdash; |
 | [`glm-5.3`](https://adzukiai.com/glm-5.3) | Zhipu AI | $0.5406 | $0.1351 | $1.892 | &mdash; |
